@@ -5,7 +5,48 @@ Un outil en ligne de commande pour transcrire des fichiers audio en texte, avec 
 ## Prérequis
 
 - Python 3.8 ou supérieur
-- Ollama (optionnel, pour le post-traitement et les questions)
+- ffmpeg (pour la conversion audio)
+- Ollama (pour l'analyse avancée)
+
+## Installation sur macOS
+
+### 1. Installation de Homebrew
+
+Si vous n'avez pas encore Homebrew, installez-le :
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### 2. Installation des dépendances système
+
+```bash
+# Installation de ffmpeg
+brew install ffmpeg
+
+# Installation de Python (si pas déjà installé)
+brew install python
+
+# Installation de Ollama
+brew install ollama
+```
+
+### 3. Configuration de l'environnement Python
+
+```bash
+# Création d'un environnement virtuel
+python -m venv venv
+
+# Activation de l'environnement virtuel
+source venv/bin/activate
+
+# Installation des dépendances Python
+pip install -r requirements.txt
+```
+
+### 4. Téléchargement des modèles
+
+Les modèles nécessaires seront téléchargés automatiquement lors de la première utilisation. Cela peut prendre quelques minutes selon votre connexion internet.
 
 ## Installation
 
