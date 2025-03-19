@@ -1,0 +1,8 @@
+openai-whisper
+torch
+ollama
+torchaudio
+speechbrain
+scikit-learn
+numpy
+soundfile 

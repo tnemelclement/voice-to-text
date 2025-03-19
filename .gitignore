@@ -1,0 +1,69 @@
+# Fichiers audio
+*.m4a
+*.wav
+*.mp3
+*.ogg
+
+# Fichiers de transcription générés
+dialogue.txt
+transcription.txt
+*.txt
+!requirements.txt
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Modèles pré-entraînés
+pretrained_models/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+
+# Fichiers temporaires
+*.tmp
+*.temp
+temp_audio.wav
+
+# Environnement virtuel
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers d'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/ 
