@@ -52,7 +52,7 @@ Les modèles nécessaires seront téléchargés automatiquement lors de la premi
 
 1. Clonez ce dépôt :
 ```bash
-git clone https://github.com/votre-username/voice-to-text.git
+git clone https://github.com/tnemelclement/voice-to-text.git
 cd voice-to-text
 ```
 
